@@ -1,4 +1,4 @@
-const API_URL = "http://localhost:3000";
+const API_URL = "https://hospital-management-system-kp67.onrender.com";
 
 async function request(url, options = {}) {
   const response = await fetch(url, {
