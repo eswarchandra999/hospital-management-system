@@ -1,0 +1,61 @@
+{
+  "doctors": [
+    {
+      "name": "ash",
+      "specialization": "cardiology",
+      "experience": 8,
+      "phone": "1234567890",
+      "email": "ash@gamil.com",
+      "available": true,
+      "id": "Hi9_fn0uBxw"
+    },
+    {
+      "name": "charan",
+      "specialization": "neurology",
+      "experience": 9,
+      "phone": "567894568",
+      "email": "charan@gamil.com",
+      "available": true,
+      "id": "vdwL-sBnYyA"
+    },
+    {
+      "name": "govardhan",
+      "specialization": "Dermatology",
+      "experience": 9,
+      "phone": "122546797",
+      "email": "gova@gamil.com",
+      "available": false,
+      "id": "0q8N8cgpDbM"
+    }
+  ],
+  "patients": [
+    {
+      "name": "rahul",
+      "age": 54,
+      "gender": "Male",
+      "phone": "1234567890",
+      "email": "rahul@gmail.com",
+      "id": "nkbX6FmeEJ4"
+    },
+    {
+      "name": "ram",
+      "age": 18,
+      "gender": "Male",
+      "phone": "0254212545",
+      "email": "ram@gmail.com",
+      "id": "oRaQIgK8Its"
+    }
+  ],
+  "appointments": [
+    {
+      "patientId": "oRaQIgK8Its",
+      "doctorId": "vdwL-sBnYyA",
+      "date": "2026-09-22",
+      "time": "20:18",
+      "reason": "for hair growth",
+      "status": "Completed",
+      "id": "ydg0XJ1-yJQ"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}
